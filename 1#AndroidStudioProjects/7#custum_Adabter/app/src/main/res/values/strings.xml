@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">custum_Adabter</string>
+
+    <string name="custum_post_folow">folow</string>
+    <string name="custum_post_folowing">folowing</string>
+    <string name="custum_post_posts">posts</string>
+    <string name="custum_post_folowers">folowers</string>
+    <string name="custum_post_like">like</string>
+    <string name="custum_post_share">share</string>
+    <string name="custum_post_coment">coment</string>
+</resources>

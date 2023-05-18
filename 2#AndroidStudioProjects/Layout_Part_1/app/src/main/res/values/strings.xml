@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Layout_Part_1</string>
+
+
+
+    <string name="et_rect_width">width</string>
+    <string name="et_rect_hieght">hieght</string>
+    <string name="et_triangle_base">base</string>
+    <string name="et_triangle_hieght">hieght</string>
+    <string name="et_circle_radius">radius</string>
+
+
+        button
+    <string name="btn_calculate">calculate</string>
+
+
+    <!--    spinner-->
+
+    <string-array name="shapes">
+        <item>rectangle</item>
+        <item>triangle</item>
+        <item>circle</item>
+    </string-array>
+
+</resources>

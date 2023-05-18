@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Layout_P1</string>
+
+<!--    Edit text-->
+    <string name="et_First_name">First name</string>
+    <string name="et_Last_name">last name</string>
+    <string name="et_password">password </string>
+
+<!--    button-->
+    <string name="btn_login">login</string>
+    <string name="btn_register">register</string>
+    <string name="rbn_male">male</string>
+    <string name="rbn_fmale">fmale</string>
+
+</resources>

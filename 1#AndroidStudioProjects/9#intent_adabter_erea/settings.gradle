@@ -1,0 +1,2 @@
+rootProject.name='intent_adabter_erea'
+include ':app'

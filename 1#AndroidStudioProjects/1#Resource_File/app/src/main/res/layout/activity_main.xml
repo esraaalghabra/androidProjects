@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#3C54F1"
+    >
+
+
+    <ImageView
+        android:id="@+id/main_iv_icon"
+        android:layout_width="@dimen/iv_width_large"
+        android:layout_height="@dimen/iv_width_large"
+        app:srcCompat="@drawable/main_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/main_et_First_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_theme_shape"
+        android:hint="@string/et_First_name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/main_et_Last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_theme_shape"
+        android:hint="@string/et_Last_name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/main_et_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_theme_shape"
+        android:hint="@string/et_password"
+        android:inputType="textPersonName"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/main_btn_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/my_theme_shape"
+            android:text="@string/btn_login" />
+
+        <Button
+            android:id="@+id/main_btn_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/my_theme_shape"
+            android:text="@string/btn_register" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/main_rbn_male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rbn_male" />
+
+        <RadioButton
+            android:id="@+id/main_rbn_fmale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rbn_fmale"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_them"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anothr them"
+        android:background="@drawable/btn_selector"
+        />
+
+
+</LinearLayout>

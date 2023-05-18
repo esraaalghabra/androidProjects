@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    android:orientation="vertical"
+    tools:context=".area">
+
+    <Spinner
+        android:id="@+id/main_sp_shapes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design_shapes"
+        android:entries="@array/shapes"
+        android:textColor="#ffffff"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/main_et_rectangle_hieght"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/design_shapes"
+            android:ems="10"
+            android:hint="@string/et_rect_hieght"
+            android:inputType="textPersonName|numberDecimal"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/main_et_rectangle_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/design_shapes"
+            android:ems="10"
+            android:hint="@string/et_rect_width"
+            android:inputType="textPersonName|numberDecimal"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/main_et_triangle_hieght"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/design_shapes"
+            android:ems="10"
+            android:hint="@string/et_triangle_hieght"
+            android:inputType="textPersonName|numberDecimal"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/main_et_triangle_base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/design_shapes"
+            android:ems="10"
+            android:hint="@string/et_triangle_base"
+            android:inputType="textPersonName|numberDecimal"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/main_et_circle_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design_shapes"
+        android:ems="10"
+        android:hint="@string/et_circle_radius"
+        android:inputType="textPersonName|numberDecimal"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/main_btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design_shapes"
+        android:text="@string/btn_calculate"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design_shapes"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="50dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_rbtn_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/design_shapes"
+            android:text="show result"
+
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/main_rbtn_gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/design_shapes"
+            android:text="gone result"
+
+            android:textColor="#ffffff" />
+    </RadioGroup>
+
+    <SeekBar
+        android:id="@+id/sb_FontSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design_shapes"
+        android:max="80"
+        android:progress="40"
+        android:thumb="@android:drawable/arrow_down_float" />
+
+    <RatingBar
+        android:id="@+id/rt_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design_shapes"
+        android:max="4"
+        android:numStars="4"
+        android:rating="2"
+        android:stepSize="1" />
+
+</LinearLayout>

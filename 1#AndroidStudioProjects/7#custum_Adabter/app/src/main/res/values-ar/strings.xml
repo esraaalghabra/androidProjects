@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">custum_Adabter</string>
+
+    <string name="custum_post_folow">متابعة</string>
+    <string name="custum_post_folowing">المتابعين</string>
+    <string name="custum_post_posts">المنشورات</string>
+    <string name="custum_post_folowers">المتابعين</string>
+    <string name="custum_post_like">إعجاب</string>
+    <string name="custum_post_share">مشاركة</string>
+    <string name="custum_post_coment">تعليق</string>
+</resources>

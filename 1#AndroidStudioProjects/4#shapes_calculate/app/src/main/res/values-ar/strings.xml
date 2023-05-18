@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حساب الأشكال</string>
+    <string name="et_rect_width">العرض</string>
+    <string name="et_rect_hieght">الطول</string>
+    <string name="et_triangle_base">القاعدة</string>
+    <string name="et_triangle_hieght">الارتفاع</string>
+    <string name="et_circle_radius">نصف القطر</string>
+    <string name="btn_calculate">الحساب</string>
+
+
+    <!--    spinner-->
+
+    <string-array name="shapes">
+        <item>مستطيل</item>
+        <item>مثلث</item>
+        <item>دائرة</item>
+    </string-array>
+</resources>

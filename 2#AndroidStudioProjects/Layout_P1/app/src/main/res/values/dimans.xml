@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Small_margin">10</dimen>
+
+<!--    imageView-->
+
+    <dimen name="iv_width_midium">100dp</dimen>
+    <dimen name="iv_width_large">150dp</dimen>
+    <dimen name="iv_width_Xlarge">200dp</dimen>
+
+
+<!--    button-->
+
+
+<!--    editText-->
+
+
+
+
+
+</resources>

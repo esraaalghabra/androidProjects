@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/it_rename" android:title="Re Name" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/it_move" android:title="move" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/it_copy" android:title="copy" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/it_delet" android:title="delet" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="ifRoom"/>
+</menu>

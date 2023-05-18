@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Layout_P1</string>
+
+<!--    Edit text-->
+    <string name="et_First_name">الاسم الأول </string>
+    <string name="et_Last_name">الاسم الثاني </string>
+    <string name="et_password">كلمة المرور  </string>
+
+<!--    button-->
+    <string name="btn_login">دخول </string>
+    <string name="btn_register">استرجاع</string>
+    <string name="rbn_male">ذكر </string>
+    <string name="rbn_fmale">انثى </string>
+</resources>

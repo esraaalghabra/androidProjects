@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">shapes_intent</string>
+    <string name="rectangle_et_width">width</string>
+    <string name="rectangle_et_height">height</string>
+    <string name="rectangle_btn_calculate">calculate</string>
+    <string name="triangle_et_base">base</string>
+    <string name="triangle_et_height">height</string>
+    <string name="triangle_btn_calculate">calculate</string>
+    <string name="main_btn_rectanlge">rectangle</string>
+    <string name="main_btn_triangle">triangle</string>
+
+</resources>

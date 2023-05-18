@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/it_custum_notification"
+        android:actionLayout="@layout/custum_notification"
+        android:icon="@drawable/custum_shap"
+        android:title="custum_notification"
+        android:visibility="visible"
+        app:showAsAction="always" />
+<!--    <item android:id="@+id/it_WiFi" android:title="WiFi" android:icon="@drawable/ic_signal_wifi_4_bar_black_24dp" app:showAsAction="ifRoom"/>-->
+    <item android:id="@+id/it_AdditionsandFeatures" android:title="Additions and features" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="never"/>
+    <item android:id="@+id/it_MessageNumber" android:title="Message a number" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="never"/>
+    <group />
+    <item android:id="@+id/it_MessageAutoReply" android:title="Message Auto Reply" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="never"/>
+    <item android:id="@+id/it_BroadcastMessagetoGroups" android:title="Broadcast Message to Groups" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="never"/>
+    <item android:id="@+id/it_NewGroup" android:title="New Group" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="never"/>
+    <item android:id="@+id/it_NewBroadcast" android:title="New Broadcast" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="never"/>
+    <item android:id="@+id/it_WhatsAppWeb" android:title="WhatsApp Web" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="never"/>
+    <item android:id="@+id/it_Setting" android:title="Setting" android:icon="@drawable/ic_launcher_foreground" app:showAsAction="never"/>
+</menu>
